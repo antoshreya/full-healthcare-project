@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: your-dockerhub-username/healthcare-backend:v1.0 # <-- IMPORTANT: Use your image
+        image: antoshreya/healthcare-backend:v1.0 # <-- IMPORTANT: Use your image
         ports:
         - containerPort: 8000
