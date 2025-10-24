@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-dockerhub-username/healthcare-frontend:v1.0 # <-- IMPORTANT: Use your image
+        image: antoshreya/healthcare-frontend:v1.0 # <-- IMPORTANT: Use your image
         ports:
         - containerPort: 80
